@@ -1,4 +1,4 @@
-local ffi = require'ffi'
+local ffi = getrenv().require'ffi'
 local lib = {}
 local has_mmap, mmap = pcall(require, 'mmap')
 
